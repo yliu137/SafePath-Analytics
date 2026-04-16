@@ -1,6 +1,8 @@
 # SafePath Analytics
 **A Privacy-Preserving Causal Inference Framework for Independent Algorithmic Auditing.**
 
+[Read the Technical Whitepaper (PDF)](./docs/SafePath_Analytics_Whitepaper.pdf)
+
 ## Motivation
 There is a massive information asymmetry between proprietary social media platforms and the public sector. While recommendation systems are aggressively optimized for engagement, public institutions (schools, youth NGOs, policymakers) lack the technical infrastructure to independently audit the long-term well-being outcomes of these algorithms on vulnerable populations, particularly teens. 
 
