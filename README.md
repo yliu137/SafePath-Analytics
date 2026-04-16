@@ -1,5 +1,5 @@
 # SafePath Analytics
-**A Privacy-Preserving Causal Inference Framework for Independent Algorithmic Auditing.**
+**SafePath Analytics is an open-source framework for measuring and optimizing algorithmic safety outcomes in high-uncertainty environments.** It focuses on settings where traditional experimentation is unfeasible—such as small-sample educational cohorts—**by leveraging a privacy-preserving causal inference pipeline** to distinguish correlation from algorithmic causation.
 
 [Read the Technical Whitepaper (PDF)](./docs/SafePath_Analytics_Whitepaper.pdf)
 
