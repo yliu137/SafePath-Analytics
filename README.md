@@ -22,7 +22,7 @@ This project disrupts the current market failure by deploying a decentralized, p
 ## Core Use Case: The "Late-Night Rabbit Hole" Audit
 - **Input:** DP-sanitized network telemetry identifying an algorithmic shift (e.g., from educational content to high-arousal short videos after 10:00 PM).
 - **Process:** The Causal Engine isolates this sequence and compares downstream engagement duration against a synthetic control group.
-- **Output:** A statistically rigorous "$p < 0.01$ Algorithmic Hazard Alert," empowering schools to justify local firewall throttling based on causal harm, rather than anecdotal evidence.
+- **Output:** A statistically rigorous "p < 0.01 Algorithmic Hazard Alert," empowering schools to justify local firewall throttling based on causal harm, rather than anecdotal evidence.
 
 ## The Goal
 Not to serve the platforms, but to **empower the public sector**. This toolkit provides public schools, independent researchers, and youth-advocacy organizations with a **regulatory-grade** analytics layer to scientifically audit algorithmic harm, enforce digital safety policies, and protect youth mental health.
