@@ -30,9 +30,11 @@ class CausalAuditor:
         
         return df
 
-    def estimate_average_treatment_effect(self, matched_df: pd.DataFrame, treatment_col: str, outcome_col: str) -> float:
+def estimate_average_treatment_effect(self, matched_df: pd.DataFrame, treatment_col: str, outcome_col: str) -> float:
         """
         Estimates the Average Treatment Effect (ATE) on the matched dataset.
+        This isolates the true algorithmic impact (e.g., changes in student attention metrics)
+        by comparing treated and control groups that share identical propensity scores.
         This provides the final, vendor-neutral insight for school administrators.
         """
         treatment_group = matched_df[matched_df[treatment_col] == 1][outcome_col].mean()
@@ -42,3 +44,4 @@ class CausalAuditor:
         logger.info(f"Estimated ATE calculated: {ate}")
         
         return ate
+
