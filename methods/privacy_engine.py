@@ -3,8 +3,7 @@ import numpy as np
 class LocalDifferentialPrivacyEngine:
     """
     SafePath Analytics: Local epsilon-Differential Privacy (e-DP) Engine.
-    Ensures FERPA compliance by injecting mathematical noise at the local edge
-    before any student data is aggregated for causal analysis.
+    Provides privacy-preserving noise injection at the local edge to align with strict federal student data privacy constraints before aggregation.
     """
     
     def __init__(self, epsilon: float, sensitivity: float = 1.0):
